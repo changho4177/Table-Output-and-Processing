@@ -100,7 +100,7 @@
 
                     // Calculate processed values
                     const alpha = dataMap["A5"] + dataMap["A20"];
-                    const beta = dataMap["A7"] !== 0 ? (dataMap["A15"] / dataMap["A7"]).toFixed(2) : "Error (Divide by 0)";
+                    const beta = dataMap["A7"] !== 0 ? (dataMap["A15"] / dataMap["A7"]) : "Error (Divide by 0)";
                     const charlie = dataMap["A13"] * dataMap["A12"];
 
                     document.getElementById("alpha").textContent = alpha;
